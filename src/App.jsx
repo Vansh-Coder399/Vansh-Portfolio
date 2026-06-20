@@ -9,7 +9,7 @@ import {
   Navbar,
   Preloader,
   StarsCanvas,
-  Works,
+  // Works,
 } from "./components";
 import EasterEggs from "./components/EasterEggs";
 import ElasticCursor from "./components/ElasticCursor";
@@ -33,7 +33,7 @@ const App = () => {
           <About />
           <Achievement />
           <SkillKeyboard />
-          <Works />
+          {/* <Works /> */}
           <Feedbacks />
           <div className="relative z-0">
             <Contact />
